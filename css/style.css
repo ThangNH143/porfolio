@@ -1,22 +1,8 @@
 body {
     font-family: "Roboto Serif", serif;
+    color:rgb(60, 88, 122)
 }
 
-.header-img {
-    background-image: url('../img/header-img.png');
-    background-size: cover;
-    background-position: right;
-    /* background-color: rgba(109, 94, 94, 0.5);
-    background-blend-mode: overlay; */
-}
-
-h2 {
-    color: #132f43;
-}
-
-.text {
-    font-family: "Roboto Serif", serif;
-    font-size: 1.1rem;
-    color: #132f43;
-    margin: 5px;
+.header {
+    background-color: burlywood;
 }
