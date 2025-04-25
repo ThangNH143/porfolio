@@ -16,27 +16,66 @@
 
     <title>ThangNH-Portfolio</title>
 </head>
+
 <body>
-    <header class="header-img">
-        <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
-            <div class="row align-items-center g-lg-5 py-5">
-              <div class="col-lg-7 text-center text-lg-start">
-                <h2 class="display-6 fw-bold lh-1 text-body-emphasis mb-3">NGUYEN HOANG THANG (Mr.)</h2>
-                <p class="col-lg-10 fs-4">
-                    <ul> <p class="text fw-bold">EXPERIENCE & SKILL SUMMARY</p>
-                        <li class="text">Having 4 years of experience as a Software QC Engineer for Windows applications. </li>
-                        <li class="text">Have knowledge in SQL; Microsoft Excel, Visio, Project; Jira</li>
-                        <li class="text">Have good experience in communicating with customer to get requirement, make clear bug happening; tracking bugs, change requests; writing user manual; training user.</li>
-                        <li class="text">Have experience in writing and analysing the change request orders from the customer; controlling Scope, Time, Cost, Quality of Project; assiging tasks to members in team.</li>                            
-                    </ul>
-                </p>
-              </div>
+    <header class="header">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+            <div class="col-10 col-sm-10 col-lg-5">
+              <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="avatar" height="500" loading="lazy">
             </div>
-          </div>
+
+            <div class="col-10 col-sm-10 col-lg-5">
+                <h2 class="display-6 fw-bold lh-1 mb-3 text">NGUYEN HOANG THANG (Mr.)</h2>
+                <p class="lead fw-bold">EXPERIENCE & SKILL SUMMARY</p>
+                <ul>
+                    <li class="text">Having 4 years of experience as a Software QC Engineer for Windows applications. </li>
+                    <li class="text">Have knowledge in SQL; Microsoft Excel, Visio, Project; Jira</li>
+                    <li class="text">Have good experience in communicating with customer to get requirement, make clear bug happening; tracking bugs, change requests; writing user manual; training user.</li>
+                    <li class="text">Have experience in writing and analysing the change request orders from the customer; controlling Scope, Time, Cost, Quality of Project; assiging tasks to members in team.</li>                            
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
-        <p>This is the starting point of my website.</p>
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Resume cards</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold mb-auto">Education & Awards</h3>
+                    <button class="d-flex btn btn-info align-self-end" type="button" href="edu.html">
+                        Info
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold mb-auto">Work Experience & Skills</h3>
+                    <button class="d-flex btn btn-info align-self-end" type="button" href="skills.html">
+                        Info
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold mb-auto">Projects</h3>
+                    <button class="d-flex btn btn-info align-self-end" type="button" href="projects.html">
+                        Info
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 
     <footer>
