@@ -1,8 +1,43 @@
 body {
     font-family: "Roboto Serif", serif;
-    color:rgb(60, 88, 122)
+    color:#003092;
 }
 
 .header {
-    background-color: burlywood;
+    background-color: #FFF2DB; /*#00879E*/
+}
+
+.card {
+    background-color: #FFF2DB;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#003092;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    border: 1px solid #003092;
+}
+
+.grid1 {
+    color: #003092;
+    background-color: #FFF2DB;
+    border: 1px solid #003092;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.grid2 {
+    border: 1px solid #003092;
+    padding: 10px;
+}
+
+.text {
+    color: #003092;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
